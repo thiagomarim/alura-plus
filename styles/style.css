@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:ital,wght@0,600;1,400&family=Outfit:wght@200&family=Poppins&display=swap');
+
+:root {
+  --cor-fundo: #00030C;
+  --cor-primaria: #fff;
+  --cor-secundaria: #167BF7;
+  --cor-secundaria-btn: #144c90;
+  --cor-tercearia: #C0C0C0;
+
+  --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-primaria);
+  font-family: var(--fonte-principal);
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.principal {
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container_caixa {
+  margin: 0 6em;
+}
+
+.container_titulo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container_imagem {
+  margin: 1em 0 2em 0;
+}
+
+.container_button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-primaria);
+  padding: 1rem;
+  border-radius: 8px;
+  display: block;
+  margin: 0 0 1em 0;
+  transition: scale .2s;
+}
+
+.container_button:hover {
+  background-color: var(--cor-secundaria-btn);
+  scale: 0.98;
+}
+
+.container_button_secundario {
+  color: var(--cor-primaria);
+  border: 1px solid var(--cor-primaria);
+  padding: 1rem;
+  border-radius: 8px;
+  display: block;
+  margin: 0 0 1em 0;
+  transition: scale .2s;
+}
+
+.container_button_secundario:hover {
+  scale: 0.98;
+}
+
+.container_subtitulo {
+  font-size: 12px;
+  color: var(--cor-tercearia);
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.container_img_computador {
+  width: 80%;
+}
+
+.descricao_titulo {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.descricao_paragrafo {
+  color: var(--cor-tercearia);
+}
+
+.secundario_button {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container_descricao {
+  padding: 2em;
+}
+
+.dispositivos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 145px;
+}
+
+.dispositivos_lista {
+  display: flex;
+  text-align: center;
+}
+
+.dispositivos_titulos {
+  font-size: 48px;
+  margin: 2.3rem;
+}
+
+.dispositivos_lista li {
+  font-size: 32px;
+  margin-right: 69px;
+}
+
+.rodape {
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.lista__link a{
+  text-decoration: none;
+  color: var(--branco-principal);
+  margin-left: 1em;
+}
+
+.rodape__texto {
+  color: var(--cor-tercearia);
+  font-size: 14px;
+  margin: 1rem 0;
+}
+
+.lista__link a:hover {
+  color: var(--cor-secundaria);
+}
