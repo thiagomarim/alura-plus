@@ -11,3 +11,6 @@
 
 ## Screenshots
 ![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+
+## Status
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
